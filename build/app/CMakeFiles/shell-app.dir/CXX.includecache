@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/AnalogSensor.hpp
+iostream
+-
+
+/home/akshay/Documents/software_dev_course/valgrind/app/AnalogSensor.cpp
+AnalogSensor.hpp
+-
+numeric
+-
+vector
+-
+
+/home/akshay/Documents/software_dev_course/valgrind/app/main.cpp
+iostream
+-
+AnalogSensor.hpp
+-
+
