@@ -17,6 +17,8 @@ numeric
 -
 vector
 -
+memory
+-
 
 /home/akshay/Documents/software_dev_course/valgrind/app/main.cpp
 iostream
